@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header{
+	height: 100px;
+	background: #191919;
+	padding: 0 20px;
+}
+
+header h2{
+	line-height: 100px;
+	float: left;
+	text-transform: uppercase;
+}
+
+header h2 a{
+	text-decoration: none;
+	color: #2ECC71;
+}
+
+header ul{
+	float: right;
+	line-height: 100px;
+}
+
+header ul a{
+	color: #3498DB;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 1px;
+}
+
+header ul a:hover{
+	color: #2ECC71;
+}
+
+body{
+	background: #34495E;
+}
+
+.filtre div nav ul{
+	text-align: center;
+}
+
+.filtre div nav ul select{
+	border: 0;
+	background: #191919;
+	display: inline-block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498DB;
+	padding: 14px 10px;
+	width: 200px;
+	color: white;
+	border-radius: 24px;
+	text-transform: uppercase;
+}
+
+.filtre div nav ul input[type = "submit"]{
+	border: 0;
+	background: #191919;
+	display: inline-block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ECC71;
+	padding: 14px 40px;
+	color: #2ECC71;
+	border-radius: 24px;
+	transition: 0.25s;	
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.filtre input[type = "submit"]:hover{
+	background: #2ECC71;
+	color: white;
+}
+
+.panneau{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+}
+
+.conf{
+	width: 1100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.article{
+	color: #fff;
+	background: #191919;
+	margin-bottom: 50px;
+	padding: 20px 10px;
+	width: 505px;
+	height: 200px;
+	border-radius: 6px;
+	border: 2px solid #3498DB;
+}
+
+.article h2{
+	text-transform: uppercase;
+	margin-bottom: 3px;
+}
+
+.article .date, .article .auteur{
+	font-style: italic;
+	color: lightgrey;
+	font-size: 0.7em;
+}
+
+.article .info{
+	margin-top: 10px;
+}
+
+.redac{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.divredac{
+	width: 1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.topredac th {
+    padding: 10px;
+}
+
+.topredac .titretab{
+	color: #2ECC71;
+}
+
+.topredac {
+	border: 2px solid #2ECC71;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+    color: #fff;
+    width: 700px;
+    text-align: left;
+    border-radius: 6px;
+    background-color: #191919
+}
+
+
+
+
